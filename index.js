@@ -6,7 +6,6 @@ const fs = require("fs"),
   createCsvWriter = require("csv-writer").createObjectCsvWriter,
   colors = require("colors");
 
-/* const fileName = "./log/gobankingrates.com.access.log"; */
 const fileName = "./log/gobankingrates-short.log";
 const stats = fs.statSync(fileName);
 
